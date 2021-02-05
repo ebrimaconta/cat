@@ -64,7 +64,7 @@ function Main(props: Props) {
       return getAddedVotesVar;
     }
   };
-
+  console.log(process.env);
   return (
     <>
       <div className=' '>

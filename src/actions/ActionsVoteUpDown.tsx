@@ -12,7 +12,7 @@ export const postVotesUp = (imageId: any) => {
       mode: 'cors',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': `${process.env.API}`,
+        'x-api-key': `${process.env.REACT_APP_API}`,
       },
       body: JSON.stringify(addVote),
     })
